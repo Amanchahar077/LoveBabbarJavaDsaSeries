@@ -18,7 +18,7 @@ public class FindPeakInMountainArr {
             }
             else{
                 peak=mid;
-                end=mid-1;
+                end--;
             }
         }
         return peak;
